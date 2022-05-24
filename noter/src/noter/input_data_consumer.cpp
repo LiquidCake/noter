@@ -1,9 +1,5 @@
 #include "input_data_consumer.hpp"
 
-#include "noter_utils.hpp"
-
-#include "sole.hpp"
-
 #include <stdlib.h>
 
 #include <ctime>
@@ -14,6 +10,9 @@
 #include <array>
 #include <vector>
 
+#include "sole.hpp"
+
+#include "noter_utils.hpp"
 #include "app_config.hpp"
 
 #ifndef NDEBUG

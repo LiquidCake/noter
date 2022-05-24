@@ -9,8 +9,9 @@
 #include <string>
 #include <mutex>
 
-#include <noter_utils.hpp>
-#include <app_config.hpp>
+#include "sole.hpp"
+#include "noter_utils.hpp"
+#include "app_config.hpp"
 
 using namespace std;
 

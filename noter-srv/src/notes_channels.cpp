@@ -2,12 +2,14 @@
 
 #include <syslog.h>
 #include <fcntl.h>
+#include <unistd.h>
 
+#include <cstring>
 #include <fstream>
 
-#include <noter_utils.hpp>
-#include <email_sender.hpp>
-#include <db_manager.hpp>
+#include "noter_utils.hpp"
+#include "email_sender.hpp"
+#include "db_manager.hpp"
 
 using namespace std;
 

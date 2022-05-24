@@ -1,8 +1,6 @@
 #ifndef NOTER_EMAIL_SENDER
 #define NOTER_EMAIL_SENDER
 
-#include "sole.hpp"
-
 #include <mutex>
 
 class EmailSender {

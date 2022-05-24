@@ -4,7 +4,7 @@
 #include <string>
 #include <map>
 
-#include <notes_channels.hpp>
+#include "notes_channels.hpp"
 
 void watchTempFiles(NotesChannelRegistry& channels_registry);
 

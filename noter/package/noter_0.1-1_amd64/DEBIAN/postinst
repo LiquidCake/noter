@@ -1,0 +1,7 @@
+#!/bin/sh
+
+mkdir /tmp/noter
+chmod 777 -R /tmp/noter
+systemctl daemon-reload
+systemctl start noterd
+systemctl enable noterd

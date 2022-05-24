@@ -1,0 +1,20 @@
+version: '3.3'
+services:
+  db:
+    image: mysql:5.7
+    restart: always
+    command: --max_allowed_packet=2254857830
+    environment:
+      MYSQL_DATABASE: 'noter-db'
+      MYSQL_USER: 'noter'
+      MYSQL_PASSWORD: '12345'
+      MYSQL_ROOT_PASSWORD: '12345'
+    ports:
+      - '3306:3306'
+    expose:
+      - '3306'
+    volumes:
+      - noter-db:/var/lib/mysql
+
+volumes:
+  noter-db:

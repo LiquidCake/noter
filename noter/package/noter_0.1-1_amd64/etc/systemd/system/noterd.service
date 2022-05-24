@@ -1,0 +1,12 @@
+[Unit]
+Description=Noter app client-side daemon to communicate with server
+After=syslog.target network.target remote-fs.target nss-lookup.target
+
+[Service]
+Type=forking
+PIDFile=/run/noterd.pid
+ExecStart=/usr/sbin/noterd
+ExecStop=/bin/kill -s SIGTERM $MAINPID
+
+[Install]
+WantedBy=multi-user.target

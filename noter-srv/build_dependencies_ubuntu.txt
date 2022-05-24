@@ -1,0 +1,6 @@
+1. libssl-dev
+2. libcurl4-gnutls-dev
+3. mysql connector (https://dev.mysql.com/downloads/connector/cpp/, https://dev.mysql.com/doc/connector-cpp/8.0/en/connector-cpp-installation-binary.html)
+	libmysqlcppconn (e.g. libmysqlcppconn9_8.0.29-1ubuntu20.04_amd64.deb)
+	libmysqlcppconn8 (e.g. libmysqlcppconn8-2_8.0.29-1ubuntu20.04_amd64.deb)
+	libmysqlcppconn-dev (e.g. libmysqlcppconn-dev_8.0.29-1ubuntu20.04_amd64.deb)

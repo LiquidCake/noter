@@ -1,0 +1,10 @@
+#!/bin/sh
+
+systemctl stop noterd
+systemctl disable noterd
+#rm /etc/systemd/system/noterd
+#rm /usr/lib/systemd/system/noterd
+#/etc/systemd/system/multi-user.target.wants/noterd.service → /etc/systemd/system/noterd.service
+systemctl daemon-reload
+systemctl reset-failed
+rm -rf /tmp/noter

@@ -1,0 +1,6 @@
+#!/bin/sh
+
+mkdir /tmp/noter_srv
+systemctl daemon-reload
+systemctl start noter-srv
+systemctl enable noter-srv

@@ -30,3 +30,11 @@
 *.exe
 *.out
 *.app
+
+
+noter/.vscode/
+noter/noter
+noter/noterd
+
+noter-srv/.vscode/
+noter-srv/noter-srv

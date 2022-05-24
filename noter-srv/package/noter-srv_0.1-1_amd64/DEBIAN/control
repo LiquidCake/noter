@@ -1,0 +1,7 @@
+Source: noter-srv
+Version: 0.1
+Maintainer: Some
+Package: noter-srv
+Architecture: amd64
+Description: Noter app server to receive and process notes data
+Depends: libc6 (>= 2.17), libcurl3-gnutls (>= 7.16.2), libgcc-s1 (>= 3.0), libmysqlcppconn9, libssl1.1 (>= 1.1.0), libstdc++6 (>= 9)

@@ -1,0 +1,11 @@
+[Unit]
+Description=Noter app server to receive and process notes data
+After=syslog.target network.target remote-fs.target nss-lookup.target
+
+[Service]
+Type=simple
+ExecStart=/opt/noter-srv/noter-srv
+ExecStop=/bin/kill -s SIGTERM $MAINPID
+
+[Install]
+WantedBy=multi-user.target

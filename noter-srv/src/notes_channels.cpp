@@ -29,8 +29,6 @@ int EmailNotesChannel::sendNote(NoteInfo& note_info) {
         return Status::ERROR;
     }
 
-    // char *file_body = new char[note_info.file_body_length + 1];
-    // file_body[note_info.file_body_length] = 0;
     HeapArrayContainer<char> file_body(note_info.file_body_length + 1);
     file_body.data()[note_info.file_body_length] = 0;
 
